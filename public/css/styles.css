@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --main-color: #00b4d8;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    line-height: 2;
+    color: #222;
+}
+
+.container {
+    display: flex;
+    width: 75vw;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.sidebar ul {
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.leftbar {
+    padding-top: 1.2rem;
+    padding-right: 1.5rem;
+    background-color: #fff;
+    min-width: 20%;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.leftbar ul {
+    list-style-type: none;
+}
+
+.leftbar li {
+    list-style-type: none;
+}
+
+.leftbar a:hover span {
+    transform: translateX(10px);
+}
+
+.leftbar a:hover i {
+    transform: rotate(360deg);
+}
+
+.leftbar a {
+    color: #00b4d8;
+    text-decoration: none;
+    position: relative;
+}
+
+.leftbar span {
+    width: 10rem;
+    padding-left: 0.5rem;;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.leftbar a i {
+    color: #00b4d8;
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.rightbar {
+    padding-top: 1.2rem;
+    background-color: #fff;
+    min-width: 20%;
+    line-height: 2rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.rightbar ul {
+    list-style-type: none;
+}
+
+.rightbar li {
+    list-style-type: none;
+}
+
+.rightbar a:hover span {
+    color: #0099b8;
+}
+
+.rightbar a {
+    color: #00b4d8;
+    text-decoration: none;
+    position: relative;
+}
+
+.rightbar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 1.2rem;
+    background-color: #fff;
+    font-weight: bold;
+    min-width: 70%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-left: #eee 1px solid;
+    border-right: #eee 1px solid;
+    padding-bottom: 5rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.lead {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.question {
+    font-style: italic;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.strong {
+    color: #00b4d8;
+}
+
